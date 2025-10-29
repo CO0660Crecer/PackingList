@@ -42,7 +42,7 @@ export default function SearchBeneficiary() {
     <div className="bg-white rounded-lg shadow-lg p-6">
       <div className="flex items-center gap-3 mb-6">
         <Search className="w-6 h-6 text-blue-600" />
-        <h2 className="text-2xl font-bold text-gray-900">Regalos Sponsor - Buscar información de regalo comprado</h2>
+        <h2 className="text-2xl font-bold text-gray-900">Buscar Beneficiario</h2>
       </div>
 
       <div className="flex gap-3 mb-6">

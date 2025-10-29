@@ -1,9 +1,11 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// reemplaza `PackingList` por el nombre exacto de tu repo
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/PackingList/',
-})
-
+  base: './',
+  optimizeDeps: {
+    exclude: ['lucide-react'],
+  },
+});

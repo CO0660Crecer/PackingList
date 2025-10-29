@@ -34,7 +34,7 @@ function App() {
               }`}
             >
               <Search className="w-5 h-5" />
-              Regalos Sponsor
+              <span className="hidden md:inline">Buscar</span> Beneficiario
             </button>
             <button
               onClick={() => setActiveTab('upload')}
